@@ -1,0 +1,4 @@
+Add javascript to the navbar
+Improve the look of the navbar
+Have a games tab that list down every game I've made
+Make a projects tab that list every project that I've made

@@ -1,0 +1,58 @@
+nav {
+	background: #800000;
+	width: 100%;
+	top: 0;
+	left: 0;
+	box-shadow: 0 0 10px black;
+}
+
+nav a {
+	font-size: 20px;
+	font-family: "Lucida Console";
+	float: left;
+	text-align: center;
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+
+}
+
+nav a:hover, button:hover {
+	background-color: #993232;
+	color: white;
+}
+
+nav a.active {
+	background-color: #590000;
+	color: white;
+}
+
+nav button {
+	float: right;
+	background-color: #590000;
+	color: white;
+	border-radius: 50%;
+	border: 1px solid black;
+	margin: 7.5px 7.5px 0 0;
+	height: 40px;
+	width: 40px;
+	font-family: "Lucida Console";
+	font-weight: bold;
+	font-size: 10px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: lightgray;
+	font-family: "Lucida Console";
+}
+
+.darkmode{
+	background-color: #1e0000;
+	color: white;
+}
